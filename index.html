@@ -1,0 +1,81 @@
+
+<div class="paper">
+
+  <h2>Dear Deep, ♡</h2>
+
+  <p>
+    I don't know how to explain my feelings
+    in perfect words, but I want you to know
+    that you are really special to me.
+  </p>
+
+  <p>
+    I love the way you follow your dreams
+    and never give up. Keep fighting,
+    keep growing and always believe in yourself.
+  </p>
+
+  <p>
+    I may not say it every day, but your
+    happiness means a lot to me.
+    I always wish to see you smiling.
+  </p>
+
+  <p>
+    No matter how difficult life gets,
+    never stop believing in yourself.
+    My fighter, keep shining like the moon.
+  </p>
+
+  <p>
+    And one last thing...
+    I don't just want to say these words.
+    I truly mean them.
+  </p>
+
+  <div class="signature">
+    With love,<br>
+    Your Moon ☾
+  </div>
+
+  <div class="question">
+    I LOVE YOU ♡
+    <br><br>
+    WILL YOU BE MINE??
+  </div>
+
+  <div class="final-moon">🌙 ♡ 🥊</div>
+
+</div>
+
+<div class="footer">
+  DEEPMO • UNDER THE SAME MOON
+</div>
+
+</div>
+
+</div>
+
+<script>
+function unlock() {
+  const password =
+    document.getElementById("password").value;
+
+  if (password === "DEEPMO") {
+    document.getElementById("login").style.display = "none";
+    document.getElementById("letter").style.display = "block";
+    window.scrollTo({top: 0, behavior: "smooth"});
+  } else {
+    document.getElementById("error").innerText =
+      "Wrong Password! Try Again ♡";
+  }
+}
+
+document.getElementById("password")
+.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") unlock();
+});
+</script>
+
+</body>
+</html>
